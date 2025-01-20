@@ -13,11 +13,11 @@ body {
 
 .sobre-mi {
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(231, 228, 238, 0.637) 0%, rgba(253, 241, 250, 0.253) 100%), url(/img/bg-work.jpeg);
+    background-image: url(/img/bg-work.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    max-width: 1450px;
+    background-size: cover;
     overflow: hidden;
     margin: auto;
 }
@@ -279,7 +279,8 @@ footer{
 }
 
 .designer-illu {
-    padding-bottom: 10px;
+    padding-bottom: 40px;
+    
 }
 }
 
